@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:background="#21FFC107">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <ListView
+            android:id="@+id/myList"
+            android:layout_width="match_parent"
+            android:layout_height="654dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/activateService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@drawable/backgroundbutton"
+                android:text="Activate"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Add Contact"
+                android:textColor="@color/black"
+                android:background="@drawable/backgroundbutton"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/emergency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@drawable/backgroundbutton"
+                android:text="Emergency"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/emergency"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight=".5"-->
+<!--                android:background="@drawable/backgroundbutton"-->
+<!--                android:text="Emergency"-->
+<!--                android:textColor="@color/black" />-->
+
+<!--            -->
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

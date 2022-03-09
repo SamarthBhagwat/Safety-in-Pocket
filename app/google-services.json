@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "959287948457",
+    "project_id": "safety-in-pocket-18f0a",
+    "storage_bucket": "safety-in-pocket-18f0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959287948457:android:0ff3c814a9fc3a3bf1e5b8",
+        "android_client_info": {
+          "package_name": "com.example.safetyinpocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959287948457-k5d0oar58lio2sjrph713smco7suj0na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBljW0G1JaLR_2AzvnjnADiqgDk21PRTs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959287948457-k5d0oar58lio2sjrph713smco7suj0na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
